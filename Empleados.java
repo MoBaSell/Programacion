@@ -19,7 +19,7 @@ public class Empleados extends Persona {
 		return numDep;
 	}
 	public void setNumDep(int numDep) {
-		this.numDep = numDep;
+		this.numDep = nump;
 	}
 
 	public String toString() {
