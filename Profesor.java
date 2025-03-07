@@ -17,4 +17,6 @@ public class Profesor extends Empleados {
 	public String toString() {
 		return "Profesor [departamento=" + departamento + "]";
 	}
+
+
 }
