@@ -1,0 +1,39 @@
+.centrado{
+    text-align: center;
+}
+img{
+    vertical-align: text-top; /*para poner el texto a una altura concreta de la imagen*/
+}
+h1{
+    font-family: arial, "Liberation sans", Helvetica, sans-serif; /* para poner en orden de oreferencia y eliga la que está disponible*/
+    text-align: right;
+}
+p{
+    font-family: courier;
+    /*font-weight: bold;
+    font-style: italic;*/
+    /*font-variant: small-caps;*/
+    font-size: 80%; /*ex para altura/ em para la anchura*/
+    text-align: justify;
+    line-height: 4em; /*separación ente lineas*/
+    letter-spacing: 5ex;
+    word-spacing: 2em; /*leter spacing y word spaicing para separcion entre palabras*/
+    text-indent: 3cm; /*tamaño del tabulado*/
+}
+blockquote b{
+    color: red;
+}
+
+#azul{ /*# se usa cuando ponemos id en el html/ para el class se usa un "."*/
+    color: rgb(100%, 0%, 0%)
+}
+
+.amarillo{ /*probar p b em, h1*/ 
+    background-color: yellow;
+}
+
+.azul.amarillo{ /* el múltiple tiene preferencia sobre los individuales// .azul .amarillo es un selector descendente
+    // .azul, .amarillo son individuales*/
+    color: green;
+    background-color: grey;
+}

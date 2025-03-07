@@ -1,0 +1,38 @@
+.primera{
+    background-color: rgba(255, 124, 124, 0.658);
+    width: 400px;
+    text-align: center;
+    font-family: arial;
+    font-size: 0.6em;
+    border-top: 2px double rgb(238, 113, 113);
+    border-left: 2px double red;
+    border-right:2px double red ;
+    border-bottom: 1px solid red;
+    margin-bottom: 1px;
+}
+.segunda{
+    text-align: center;
+    font-size: 0.6em;
+    width: 400px;
+    background-color: red;
+    border-top: 1px solid red;
+    border-bottom: 2px double red;
+    border-right:2px double red ;
+    border-left: 2px double red;
+}
+td:empty{
+    background-color: yellow;
+}
+td{
+    background-color: white;
+
+    margin: 0;
+    padding: 10px;
+    border: 1px solid red;
+    
+}
+th{
+    margin: 0;
+    padding: 10px;
+   
+}

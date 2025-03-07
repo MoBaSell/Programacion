@@ -1,0 +1,51 @@
+.contenedor{
+    margin: auto;
+    width: 850px;
+    height: 800px;
+    border: 2px solid black;
+}
+.izquierda {
+    width: 100px;
+    float: left;
+    margin: 10px;
+    
+    
+}
+.imagen{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.tabla{
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    height: 750px;
+    margin: 10px;
+
+}
+img{
+    
+    width: 80px;
+    height: 80px;
+    
+}
+.derecha{
+float: right;
+}
+h1{
+    background-color: gray;
+    color: yellow;
+    height: 600px;
+    width: 600x;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.footer{
+background-color: green;
+color: white;
+margin: 10px;
+}

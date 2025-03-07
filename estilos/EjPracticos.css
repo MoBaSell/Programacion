@@ -1,0 +1,14 @@
+body{
+    background-image: url(/descarga/purple_marble.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.centro{
+    margin: auto;
+    width: 500px;
+    border: 2px solid black;
+    
+}

@@ -1,0 +1,14 @@
+p {
+    color: red;
+}
+/* Esto es un comentario*/
+
+*{ /*con * se aplica el mismo estilo a todos*/
+    color: blue;
+    /*esto tambien es un comentario*/
+    background-color: yellow;
+}  
+
+b, blockquote{ /*para poner mas de un selector se separan por coma*/
+    color: green;
+}

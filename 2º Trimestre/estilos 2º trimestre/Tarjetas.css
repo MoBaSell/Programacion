@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(173, 216, 216);
+}
+.contenedor{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.caja1, .caja2, .caja3{
+    height: 500px;
+    border: 1px solid black;
+    flex-basis: 25%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px;
+    overflow: hidden;
+    min-width: 300px; /*LO MINIMO QUE SE PUEDE ENCOGER*/
+}
+h1{
+    color: green;
+}

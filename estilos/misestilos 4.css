@@ -1,0 +1,39 @@
+b{
+    /*background-color: yellow;*/
+    width: 200px;
+    height: 100px;
+    border: 2px red solid;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+h1{
+    background-color: pink;
+}
+/*b{
+    padding: 30px;  /*para las negritas
+    margin: 30px;
+    border: black solid 2px;
+}*/
+
+.primero{
+    background-color: cyan;
+    width: 300px;
+    padding: 20px 50px;
+    border: 2px dashed blue;
+    margin: 50px;
+    float: left;
+}
+.segundo{
+    background-color: yellow;
+    width: 500px;
+    float: left;
+    margin: 50px;
+}
+.tercero{
+    background-color: rgb(136, 255, 0);
+    clear: both;
+    width: 300px;
+    margin: 50px;
+}

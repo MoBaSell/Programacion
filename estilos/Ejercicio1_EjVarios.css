@@ -1,0 +1,61 @@
+h1, h3{
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 50px;
+
+}
+
+.contenedor{
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    /*overflow: auto;*/ /*segunda forma*/
+    height: 260px;
+}
+
+.contenedor2{
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.izquierda, .derecha, .centro, #pie {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.izquierda, .derecha, .centro{
+    width: 256px;
+    height: 250px;
+    float: left;
+}
+
+.centro{
+    margin: 0 10px;
+    background-color:green ;
+    color: white;
+
+}
+.izquierda{
+    background-color: aqua;
+    color: black;
+}
+.derecha{
+    background-color: pink;
+    color: black;
+}
+p{
+    font-size: 2em;
+    margin-top: 50px;
+    font-family: arial;
+}
+#pie{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 1.8em;
+    font-family: arial;
+
+}
